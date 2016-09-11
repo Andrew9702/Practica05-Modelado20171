@@ -1,4 +1,4 @@
-
+﻿
 # coding: utf-8
 
 # In[4]:
@@ -22,7 +22,7 @@ class Window(QtGui.QMainWindow):
         
         self.setGeometry(250, 200, 500, 300)#Ajustando el tamanho de la ventana
         self.setWindowTitle("¡Viva México!") #Agregando el titulo
-        self.setWindowIcon(QtGui.QIcon('flaggy.png')) #Agregando el icono de la bandera
+        self.setWindowIcon(QtGui.QIcon("flaggy.png")) #Agregando el icono de la bandera
         
         #Anadiendo personajes de la independencia
         self.styleChoice = QtGui.QLabel("Mientras esperas, te mencionaremos a estos heroes. Quienes merecen ser recordados \n por su valentia y honor\n 1- Jose Maria Morelos y Pavon.\n 2.-Josefa Ortiz de Dominguez\n 3.-Vicente Guerrero", self)
